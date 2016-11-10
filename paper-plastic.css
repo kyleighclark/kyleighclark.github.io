@@ -216,6 +216,7 @@ a {
 body {
   width: 768px;
   margin: 0 auto;
+  border: 1px solid #EAEAEA;
 }
 /*header */
 header {
