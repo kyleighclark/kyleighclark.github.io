@@ -161,6 +161,9 @@ p {
 ul {
   padding-left: 0;
 }
+a {
+  text-decoration: none;
+}
 /* Helper Classes */
 /* color */
 .font--white {color: #FFFFFF;}
