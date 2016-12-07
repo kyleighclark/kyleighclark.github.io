@@ -1,23 +1,98 @@
 /* typography */
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 50px;
-  color: #FFFFFF;
+  color: #000000;
 }
 h2 {
   font-family: 'Satisfy', cursive;
   font-size: 36px;
-  color: #FFFFFF;
+  color: #000000;
 }
-
-/* body */
-body {
-  background-color: #CFECCE;
+h3 {
+  font-family: 'Satisfy', cursive;
+  font-size: 36px;
+  color: #000000;
+}
+h4 {
+  font-family: 'Satisfy', cursive;
+  font-size: 36px;
+  color: #000000;
+}
+h5 {
+  font-family: 'Satisfy', cursive;
+  font-size: 36px;
+  color: #000000;
+}
+h6 {
+  font-family: 'Satisfy', cursive;
+  font-size: 36px;
+  color: #000000;
+}
+p {
+  font-family: 'Satisfy', cursive;
+  font-size: 36px;
+  color: #000000;
+}
+ul {
+  padding: 0;
+}
+li {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #E0E0E0;
+  transition-duration: .5s;
+}
+/* helper classes*/
+.text-align-left {
+  text-align: left;
+}
+.display-inline-block {
+  display: inline-block;
+}
+/* header */
+header {
+  border-bottom: 1px dashed #ccc;
   text-align: center;
 }
-img {
-  width: 25%;
+.logo {
+  display: inline-block;
 }
-.pt150 {
-  padding-top: 150px;
+.header__nav li {
+  display: inline-block;
+  padding-right: 30px;
 }
+.header__nav li:last-of-type {
+  padding-right: 0;
+}
+/* body */
+body {
+  background-color: #FFFFFF;
+}
+/* home page */
+.home__container {
+  text-align: center;
+}
+.home__container img {
+  width: 33%;
+  padding-top: 5em;
+}
+/* resume page */
+.resume__container {
+  text-align: center;
+}
+.resume__img {
+  width: 50%;
+}
+/* projects page */
+.projects__container {
+  text-align: center;
+}
+/* footer */
