@@ -30,9 +30,10 @@ h6 {
   color: #000000;
 }
 p {
-  font-family: 'Satisfy', cursive;
-  font-size: 36px;
-  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #2D7162;
 }
 ul {
   padding: 0;
@@ -82,17 +83,27 @@ body {
 }
 .home__container img {
   width: 33%;
-  padding-top: 5em;
+  margin: 5em 0;
 }
 /* resume page */
 .resume__container {
   text-align: center;
+  margin: 20px auto;
 }
 .resume__img {
   width: 50%;
 }
 /* projects page */
-.projects__container {
+.projects__container,
+.about__container {
   text-align: center;
 }
 /* footer */
+footer {
+  border-top: 1px dashed #ccc;
+}
+footer  p {
+  text-align: center;
+  color: #ccc;
+  font-size: 14px;
+}
